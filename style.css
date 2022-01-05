@@ -144,9 +144,7 @@ body{
     margin: 0 auto;
     display: block;
 }
-.subscrib-area{
-    margin-bottom: 20px;
-}
+
 .subscrib-bg{
     background-image: url(./images/subscrib-bg.jpg);
     width: 95%;
@@ -166,4 +164,41 @@ body{
     display: block;
     margin: 0 auto;
     float: none;
+}
+.download-area{
+    background-color: #F5F6F8;
+}
+.download-text{
+    padding: 120px;
+}
+.download-text h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.download-text p{
+    text-align: center;
+}
+.download-btn{
+    text-align: center;
+}
+.download-btn .btn{
+    background-color: #1BBC9B;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+
+}
+.download-btn .btn{
+    background-color: #1BBC9B;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
 }
