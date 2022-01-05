@@ -1,3 +1,70 @@
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    background-image: url(images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: aliceblue;
+    overflow: hidden;
+    
+}
+.menu-area ul{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    
+    
+}
+.menu-area ul li{
+    display: inline;
+    margin: 50px 24px;
+}
+.menu-area ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0 20px;
+
+}
+.slogan-area{
+    text-align: center;
+    margin: 150px 0;
+}
+.slogan-area h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 100;
+}
+.slogan-area h3{
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.slogan-area a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #16A085;
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.header-iconarea .icon{
+    display: flex;
+    height: 150px;
+    width: 180px;
+    margin: 0 auto;
+}
+.header-iconarea .icon .twiter{
+    margin: 0 20px;
+}
+.header-iconarea .icon .flicker{
+    margin: 0 20px;
+}
+.header-iconarea .icon .dribbble{
+    margin: 0 20px;
 }
