@@ -101,3 +101,46 @@ body{
 .design-hedding{
     color: #20A48A;
 }
+.our-community{
+    display: flex;
+    background-color: #F5F6F8;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+.community-area{
+    text-align: center;
+    width: 30%;
+    box-shadow: 4px 4px 12px gray;
+    padding: 10px;
+
+}
+.community-logo img{
+    width: 50px;
+    margin: 0 auto;
+    display: block;
+}
+.image-area1{
+    text-align: center;
+    width: 30%;
+    box-shadow: 4px 4px 12px gray;
+    padding: 10px;
+}
+.image-area1 img{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.image-area2{
+    text-align: center;
+    width: 30%;
+    box-shadow: 4px 4px 12px gray;
+    padding: 10px;
+}
+.image-area2 img{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
