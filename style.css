@@ -2,6 +2,10 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+.container {
+    width: 95%;
+    margin: auto;
+}
 .header {
     background-image: url(images/header-bg.jpg);
     background-repeat: no-repeat;
@@ -43,19 +47,11 @@ body{
     margin-top: 0;
     margin-bottom: 50px;
 }
-.slogan-area a{
-    text-decoration: none;
-    color: aliceblue;
-    background-color: #16A085;
-    padding: 8px 30px;
-    border-radius: 5px;
-    font-weight: 500;
-    margin-top: 30px;
-}
+
 
 .header-iconarea .icon{
     display: flex;
-    height: 150px;
+    height: 80px;
     width: 180px;
     margin: 0 auto;
 }
@@ -67,4 +63,38 @@ body{
 }
 .header-iconarea .icon .dribbble{
     margin: 0 20px;
+}
+.flexible-container {
+    display: flex;
+    overflow: hidden;
+}
+.half-width{
+    width: 50%;
+    padding: 50px;
+}
+.hand-area {
+    background-color: #F5F6F7;
+    height: 400px;
+}
+
+.text-area .hand-text {
+    color: #20A48A;
+    text-transform: uppercase;
+    font-weight:300;
+}
+.text-area p {
+    text-transform: capitalize;
+    font-size: 14px;
+    padding: 10px 0 40px 0;
+}
+.btn{
+    background: #16A085;
+    padding: 10px 30px;
+    color: white;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 5px;
+}
+.hand-image .half-width {
+    width: 100%;
+    height: auto;
 }
