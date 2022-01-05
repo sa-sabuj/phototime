@@ -144,3 +144,26 @@ body{
     margin: 0 auto;
     display: block;
 }
+.subscrib-area{
+    margin-bottom: 20px;
+}
+.subscrib-bg{
+    background-image: url(./images/subscrib-bg.jpg);
+    width: 95%;
+    height: 600px;
+    margin: 0 auto;
+}
+.subscrib-bg h2{
+    text-align: center;
+    color: white;
+    padding-top: 300px ;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.subscrib-form .subscrib{
+    border: 2px solid gray;
+    display: block;
+    margin: 0 auto;
+    float: none;
+}
